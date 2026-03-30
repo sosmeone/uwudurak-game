@@ -1,0 +1,17 @@
+{
+  "name": "durak-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Durak card game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
